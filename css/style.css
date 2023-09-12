@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,200&display=swap');
+
+body{
+
+
+    background-color: cornflowerblue;
+    
+}
+
+a{
+
+    text-decoration: none;
+}
+* {
+
+    margin:0;
+    padding:0;
+}
+
+a {
+
+    margin-left:30px;
+    color:#ffa500;
+}
+
+#op1 {
+
+    color:#7fff00;
+}
+#op2 {
+
+    color:#ff0000;
+}
+#op3 , #op5 {
+
+    color:#808000;
+}
+#op4 {
+
+    color:#a52a2a;
+}
+
+.group_class{
+
+    padding:10px
+}
+
+.group_op{
+
+    background-color: cadetblue;
+    margin-top: 5px;
+}
+
+.group_op:hover{
+
+    background-color: #ff0000;
+}
+
+[disabled]{
+    background-color: #06f7ff;
+}
+
+#papa{
+
+    border:10px solid red;
+    border-radius:10px
+
+
+
+
+}
+
+#papa .hermanos + .hermanos{
+    color:aqua
+}
+
+#papa a {
+    color:blue;
+}
+
+#papa > #etiqueta > a {
+    color:burlywood
+}
+
+
